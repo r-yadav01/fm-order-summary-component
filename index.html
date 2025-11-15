@@ -1,64 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="reset.css" />
-        <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
 
-        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-        <title>Order summary card</title>
+    <title>Order summary card</title>
 
-        <style></style>
-    </head>
-    <body>
-        <div class="page">
-            <div class="background-image">
-                <picture>
-                    <source
-                        srcset="./images/pattern-background-desktop.svg"
-                        media="(min-width: 376px)"
-                    />
-                    <img src="./images/pattern-background-mobile.svg" alt="background-mobile" />
-                </picture>
+    <style></style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="background-image">
+        <picture>
+          <source
+            srcset="./images/pattern-background-desktop.svg"
+            media="(min-width: 600px)"
+          />
+          <img
+            src="./images/pattern-background-mobile.svg"
+            alt="background-mobile"
+          />
+        </picture>
+      </div>
+      <article class="component">
+        <div class="hero-image">
+          <img src="./images/illustration-hero.svg" alt="illustration-image" />
+        </div>
+        <h1 class="title">Order Summary</h1>
+        <p class="summary">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <section class="plan">
+          <span class="close-info">
+            <img src="./images/icon-music.svg" alt="music-icon" />
+            <div class="pricing-info">
+              <b class="duration">Annual Plan</b>
+              <span class="price">$59.99/year</span>
             </div>
-            <article class="component">
-                <div class="hero-image">
-                    <img src="./images/illustration-hero.svg" alt="illustration-image" />
-                </div>
-                <h1 class="title">Order Summary</h1>
-                <p class="summary">
-                    You can now listen to millions of songs, audiobooks, and podcasts on any device
-                    anywhere you like!
-                </p>
-                <section class="plan">
-                    <span class="close-info">
-                        <img src="./images/icon-music.svg" alt="music-icon" />
-                        <div class="pricing-info">
-                            <b class="duration">Annual Plan</b>
-                            <span class="price">$59.99/year</span>
-                        </div>
-                    </span>
-                    <a href="" class="change-plan">Change</a>
-                </section>
-                <section class="buttons">
-                    <button class="proceed">Proceed to Payment</button>
-                    <button class="cancel">Cancel Order</button>
-                </section>
-            </article>
-        </div>
+          </span>
+          <a href="" class="change-plan">Change</a>
+        </section>
+        <section class="buttons">
+          <button class="proceed">Proceed to Payment</button>
+          <button class="cancel">Cancel Order</button>
+        </section>
+      </article>
+    </div>
 
-        <div class="attribution">
-            Challenge by
-            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
-            >. Coded by <a href="https://github.com/r-yadav01">Rohan Yadav</a>.
-        </div>
-    </body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/r-yadav01">Rohan Yadav</a>.
+    </div>
+  </body>
 </html>
